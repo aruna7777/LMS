@@ -37,8 +37,8 @@
                 </a>
                 <ul class="treeview-menu">
                     <li><a href="{!! url('/new_book') !!}"><i class="fa fa-circle-o"></i> Add Books</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Search Books</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Details</a></li>
+                    <li><a href="{!! url('/search_book') !!}"><i class="fa fa-circle-o"></i> Search Books</a></li>
+                    <li><a href="{!! url('/details_book') !!}"><i class="fa fa-circle-o"></i> Details</a></li>
                 </ul>
             </li>
            
